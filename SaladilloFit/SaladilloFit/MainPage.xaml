@@ -2,10 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:SaladilloFit"
-             x:Class="SaladilloFit.MainPage">
+             x:Class="SaladilloFit.MainPage"
+             BackgroundColor="Orange">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout>
+	    <Label x:Name="lblUsuario" TextColor="LightYellow" Text="Usuario"/>
+        <Label x:Name="lblContra" TextColor="LightYellow" Text="Contraseña"/>
+        <Entry x:Name="txtUsuario" Text="{Binding Nickname, Mode=TwoWay}" TextChanged="txtUsuario_TextChanged"/>
+        <Entry x:Name="txtContra" Text="{Binding Password, Mode=TwoWay}" TextChanged="txtUsuario_TextChanged"/>
+        <Button x:Name="btnEntrar" Text="Entrar" BackgroundColor="White"/>
+        <Label x:Name="lblError" Text="{Binding Error}" TextColor="LightYellow"/>
+    </StackLayout>
 
 </ContentPage>

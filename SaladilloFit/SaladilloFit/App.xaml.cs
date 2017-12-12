@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SaladilloFit.Assets;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,11 +10,19 @@ namespace SaladilloFit
 {
     public partial class App : Application
     {
-        public App()
+        public UsuariosRepository Usuarios { get; set; }
+        public ObjetivosRepository Objetivos { get; set; }
+        public HorariosRepository Horarios { get; set; }
+
+        public App(string filename)
         {
             InitializeComponent();
 
-            MainPage = new SaladilloFit.MainPage();
+            Usuarios = new UsuariosRepository(filename);
+            Objetivos = new ObjetivosRepository(filename);
+            Horarios = new HorariosRepository(filename);
+
+            MainPage = new MainPage(Usuarios);
         }
 
         protected override void OnStart()

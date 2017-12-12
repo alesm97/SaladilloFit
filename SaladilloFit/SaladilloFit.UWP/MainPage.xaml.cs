@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SaladilloFit.UWP;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -20,8 +21,9 @@ namespace SaladilloFit.UWP
         public MainPage()
         {
             this.InitializeComponent();
+            string dbPath = FileAccessHelper.GetLocalFilePath("SaladilloFit.db3");
 
-            LoadApplication(new SaladilloFit.App());
+            LoadApplication(new SaladilloFit.App(dbPath));
         }
     }
 }

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SaladilloFit.Views.UsuarioView"
+             BackgroundColor="Orange">
+
+    <StackLayout>
+        <StackLayout>
+                <StackLayout>
+                    <Label Text="{Binding WelcomeMessage, Mode=TwoWay}" />
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="DNI" TextColor="LightYellow" />
+                        <Label Text="Horario" TextColor="LightYellow" />
+                        <Label Text="Objetivo" TextColor="LightYellow" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="{Binding DNI, Mode=TwoWay}"  />
+                        <Label Text="{Binding Horario, Mode=TwoWay}" />
+                        <Label Text="{Binding Objetivo, Mode=TwoWay}" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Edad" TextColor="LightYellow" />
+                        <Label Text="Altura" TextColor="LightYellow" />
+                        <Label Text="Peso" TextColor="LightYellow" />
+                        <Label Text="IMC" TextColor="LightYellow" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="{Binding Edad, Mode=TwoWay}" />
+                        <Label Text="{Binding Altura, Mode=TwoWay}" />
+                        <Label Text="{Binding Peso, Mode=TwoWay}" />
+                        <Label Text="{Binding IMC, Mode=TwoWay}" />
+                    </StackLayout>
+                </StackLayout>
+        </StackLayout>
+        <Button x:Name="btnVolver" Text="Cambiar Usuario"/>
+    </StackLayout>
+
+</ContentPage>

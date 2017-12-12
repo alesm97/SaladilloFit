@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SaladilloFit.Views.GerenteView"
+             BackgroundColor="Orange">
+
+    <StackLayout>
+        <Label Text="Nombre" />
+        <Entry Text="{Binding Nombre, Mode=TwoWay}" />
+        <Label Text="DNI" />
+        <Entry Text="{Binding Dni, Mode=TwoWay}" />
+        <Label Text="Horario" />
+        <Entry Text="{Binding Horario, Mode=TwoWay}" />
+        <Label Text="Edad" />
+        <Entry Text="{Binding Edad, Mode=TwoWay}" />
+        <Label Text="Altura" />
+        <Entry Text="{Binding Altura, Mode=TwoWay}" />
+        <Label Text="Peso" />
+        <Entry Text="{Binding Peso, Mode=TwoWay}" />
+        <Label Text="Objetivo" />
+        <Entry Text="{Binding Dni, Mode=TwoWay}" />
+        <Button x:Name="btnAddUser"/>
+        <Label Text="{Binding Error}"/>
+        <Button x:Name="btnHome"/>
+        <Label Text="Usuarios"/>
+        <ListView ItemsSource="{Binding Usuarios, Mode=TwoWay}"/>
+    </StackLayout>
+    
+</ContentPage>
