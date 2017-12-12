@@ -9,7 +9,7 @@
 	    <Label x:Name="lblUsuario" TextColor="LightYellow" Text="Usuario"/>
         <Label x:Name="lblContra" TextColor="LightYellow" Text="Contraseña"/>
         <Entry x:Name="txtUsuario" Text="{Binding Nickname, Mode=TwoWay}" TextChanged="txtUsuario_TextChanged"/>
-        <Entry x:Name="txtContra" Text="{Binding Password, Mode=TwoWay}" TextChanged="txtUsuario_TextChanged"/>
+        <Entry x:Name="txtContra" IsPassword="true" Text="{Binding Password, Mode=TwoWay}" TextChanged="txtUsuario_TextChanged"/>
         <Button x:Name="btnEntrar" Text="Entrar" BackgroundColor="White"/>
         <Label x:Name="lblError" Text="{Binding Error}" TextColor="LightYellow"/>
     </StackLayout>
