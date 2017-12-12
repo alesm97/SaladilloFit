@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['assets',['Assets',['../namespace_saladillo_fit_1_1_assets.html',1,'SaladilloFit']]],
+  ['collections',['Collections',['../namespace_system_1_1_collections.html',1,'System']]],
+  ['compilerservices',['CompilerServices',['../namespace_system_1_1_runtime_1_1_compiler_services.html',1,'System::Runtime']]],
+  ['comtypes',['ComTypes',['../namespace_system_1_1_runtime_1_1_interop_services_1_1_com_types.html',1,'System::Runtime::InteropServices']]],
+  ['droid',['Droid',['../namespace_saladillo_fit_1_1_droid.html',1,'SaladilloFit']]],
+  ['generated',['Generated',['../namespace_system_1_1_runtime_1_1_serialization_1_1_generated.html',1,'System::Runtime::Serialization']]],
+  ['generic',['Generic',['../namespace_system_1_1_collections_1_1_generic.html',1,'System::Collections']]],
+  ['interopservices',['InteropServices',['../namespace_system_1_1_runtime_1_1_interop_services.html',1,'System::Runtime']]],
+  ['ios',['iOS',['../namespace_saladillo_fit_1_1i_o_s.html',1,'SaladilloFit']]],
+  ['model',['Model',['../namespace_saladillo_fit_1_1_model.html',1,'SaladilloFit']]],
+  ['mvvm',['MVVM',['../namespace_saladillo_fit_1_1_m_v_v_m.html',1,'SaladilloFit']]],
+  ['runtime',['Runtime',['../namespace_system_1_1_runtime.html',1,'System']]],
+  ['saladillofit',['SaladilloFit',['../namespace_saladillo_fit.html',1,'']]],
+  ['saladillofit_5fuwp_5fxamltypeinfo',['SaladilloFit_UWP_XamlTypeInfo',['../namespace_saladillo_fit_1_1_u_w_p_1_1_saladillo_fit___u_w_p___xaml_type_info.html',1,'SaladilloFit::UWP']]],
+  ['serialization',['Serialization',['../namespace_system_1_1_runtime_1_1_serialization.html',1,'System::Runtime']]],
+  ['sqlitepcl',['SQLitePCL',['../namespace_s_q_lite_p_c_l.html',1,'']]],
+  ['system',['System',['../namespace_system.html',1,'']]],
+  ['uwp',['UWP',['../namespace_saladillo_fit_1_1_u_w_p.html',1,'SaladilloFit']]],
+  ['views',['Views',['../namespace_saladillo_fit_1_1_views.html',1,'SaladilloFit']]],
+  ['windowsruntime',['WindowsRuntime',['../namespace_system_1_1_runtime_1_1_interop_services_1_1_windows_runtime.html',1,'System::Runtime::InteropServices']]]
+];
